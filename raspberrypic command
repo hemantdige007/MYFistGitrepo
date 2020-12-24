@@ -1,0 +1,145 @@
+mongo --username mindspark --password --authenticationDatabase admin 
+
+
+ 
+var dbs = db.getMongo().getDBNames() 
+for(var i in dbs){ 
+if(dbs[i] !== "admin" && dbs[i] !== "local"){ 
+db = db.getMongo().getDB( dbs[i] ); 
+db.getCollectionNames().forEach(function(c) { if (c.indexOf("system.") == -1) 
+db[c].drop(); }) 
+} 
+} 
+ 
+ 
+curl -X DELETE 'http://localhost:9200/_all'
+
+
+
+sudo su
+cd /var/www/html/
+rm -rf installer_naandi_v1.7.zip
+rm -rf README.json
+rm -rf installer
+rm -rf naandi.apk
+rm -rf view?usp=sharing
+ls -ltrh
+
+curl -LO http://27.109.14.75:9000/naandi.apk
+curl -LO http://192.168.1.73/Installers_naandi/12/Installer_Hindi_v1.12.zip
+unzip -q Installer_Hindi_v1.12.zip
+chown -R www-data:www-data .
+rm -rf Installer_Hindi_v1.12.zip
+
+Gujarati:
+sudo su
+cd /var/www/html/
+rm -rf installer_naandi_v1.7.zip
+rm -rf README.json
+rm -rf installer
+rm -rf naandi.apk
+rm -rf view?usp=sharing
+ls -ltrh
+curl -LO http://27.109.14.75:9000/naandi.apk
+curl -LO http://192.168.1.73/Installers_naandi/12/Installer_Gujarati_v1.12.zip
+unzip -q Installer_Gujarati_v1.12.zip
+chown -R www-data:www-data .
+rm -rf Installer_Gujarati_v1.12.zip
+
+IP Address/Mindspark/Framework/Mindspark/OfflineSync/SyncPackages
+
+--------------------------------------------------------------------------
+Gujarati: Anotepad link : https://anotepad.com/notes/rexqn78i
+sudo su
+cd /var/www/html/
+rm -rf installer_naandi_v1.7.zip
+rm -rf README.json
+rm -rf installer
+rm -rf naandi.apk
+rm -rf view?usp=sharing
+ls -ltrh
+
+mongo --username mindspark --password --authenticationDatabase admin 
+
+Enterpassword : ei-india         then copy below command and past in terminal
+ 
+var dbs = db.getMongo().getDBNames() 
+for(var i in dbs){ 
+if(dbs[i] !== "admin" && dbs[i] !== "local"){ 
+db = db.getMongo().getDB( dbs[i] ); 
+db.getCollectionNames().forEach(function(c) { if (c.indexOf("system.") == -1) 
+db[c].drop(); }) 
+} 
+} 
+
+After copy and past press ctr+c and exit
+ 
+curl -X DELETE 'http://localhost:9200/_all'
+
+
+
+curl -LO http://27.109.14.75:9000/naandi.apk
+curl -LO http://192.168.1.73/Installers_naandi/12/Installer_Hindi_v1.12.zip
+unzip -q Installer_Hindi_v1.12.zip
+chown -R www-data:www-data .
+rm -rf Installer_Hindi_v1.12.zip
+
+IP Address/Mindspark/Framework/Mindspark/OfflineSync/SyncPackages
+-------------------------------------------------------------------------------------
+
+Telugu 
+
+Telugu:
+
+sudo su
+cd /var/www/html/
+rm -rf installer_naandi_v1.7.zip
+rm -rf README.json
+rm -rf installer
+rm -rf naandi.apk
+rm -rf view?usp=sharing
+ls -ltrh
+curl -LO http://27.109.14.75:9000/naandi.apk
+curl -LO http://192.168.1.246/Installer_Telugu_v1.19.zip
+unzip -q Installer_Telugu_v1.19.zip
+chown -R www-data:www-data .
+rm -rf Installer_Telugu_v1.19.zip
+
+IP Address/Mindspark/Framework/Mindspark/OfflineSync/SyncPackages
+----------------------------------------------------------------------------------------
+
+Marathi Anotepad llink https://anotepad.com/notes/agjqbn7s
+
+sudo su
+cd /var/www/html/
+rm -rf installer_naandi_v1.7.zip
+rm -rf README.json
+rm -rf installer
+rm -rf naandi.apk
+rm -rf view?usp=sharing
+ls -ltrh
+curl -LO http://27.109.14.75:9000/naandi.apk
+curl -LO http://192.168.1.246/Installer_Marathi_v1.14.zip
+unzip -q Installer_Marathi_v1.14.zip
+chown -R www-data:www-data .
+rm -rf Installer_Marathi_v1.14.zip
+
+IP Address/Mindspark/Framework/Mindspark/OfflineSync/SyncPackages
+---------------------------------------------------------------------------------------
+English  Anotepad Link https://anotepad.com/notes/4y7qcm4a
+
+sudo su
+cd /var/www/html/
+rm -rf installer_naandi_v1.7.zip
+rm -rf README.json
+rm -rf installer
+rm -rf naandi.apk
+rm -rf view?usp=sharing
+ls -ltrh
+curl -LO http://27.109.14.75:9000/naandi.apk
+curl -LO http://192.168.1.246/Installer_English_v1.0.zip
+unzip -q Installer_English_v1.0.zip
+chown -R www-data:www-data .
+rm -rf Installer_English_v1.0.zip
+
+IP Address/Mindspark/Framework/Mindspark/OfflineSync/SyncPackages
